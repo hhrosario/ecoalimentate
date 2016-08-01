@@ -1,0 +1,99 @@
+
+.infoBox .IFcontainer 
+{
+	position: relative;
+	width: 150px;
+	padding: 10px;
+	background-color: #ffffff;
+	font-family: "OpenSansRMA";
+	font-size: 13px;
+	color: #999;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-ms-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	text-align: center;
+    margin-bottom: -39px;
+    margin-left: 9px;
+}
+
+.infoBox .IFcontainer .IFclose 
+{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	width: 30px;
+	height: 30px;
+	background-image: url('lbox_controls.png');	
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+.infoBox .IFcontainer .IFcorner 
+{
+	position: absolute;
+	bottom: -18px;
+	left: 50%;
+	margin-left: -15px;
+	width: 30px;
+	height: 18px;
+	background-image: url('info-box-pico.png');	
+	background-repeat: no-repeat;
+}
+
+.infoBox .IFcontainer img.IFheader 
+{
+    z-index: 1;
+	border-radius: 4px;
+    margin-top: -1px;
+    width: 90px;
+	margin-left: -10px;
+}
+
+.infoBox .IFcontainer div#IFtitleBox 
+{
+    color: #91283c;
+    font-size: 19px;
+    letter-spacing: -1px;
+    line-height: 23px;
+}
+
+.IFcontainer .btnDetail
+{
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	color:#ffffff;
+	font-family: "OpenSansRMA";
+	font-size:14px;
+	font-weight:bold;
+	padding:10px;
+	text-decoration:none;
+	border: 0px;
+	margin-top: 5px;
+}
+
+.btnDetailPink
+{
+	background-color: #F8931F;
+}
+
+.btnDetailOrange
+{
+	background-color: #EE9C4A;
+}
+
+.divUserCurrentPosition
+{
+	color: #51AADB !important;
+}
+
+#divInfoBoxAddressDetail
+{
+	font-size: 16px;
+	padding: 5px;
+}

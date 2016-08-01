@@ -1,0 +1,59 @@
+#page-feria .page-content
+{
+    padding-top: 24px;
+}
+
+#divPageBoneMarrowTitleContainer
+{
+	text-align: center;
+}
+
+.spnStandOutPink
+{
+	font-weight: bold;
+	color: #EE9C4A;
+}
+
+.spnStandOutBlue
+{
+	font-weight: bold;
+	color: #EE9C4A;
+}
+
+.card-content-orange
+{
+	box-shadow: 0 0 6px 0 orange;
+}
+
+#divRegistrationContainer
+{
+    color: #EE9C4A;
+    font-size: 27px;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+#divDonationContainer
+{
+    color: #EE9C4A;
+    font-size: 27px;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+#divHemoterapiaService
+{
+    font-weight: bold;
+    margin-bottom: 21px;
+    margin-top: -7px;
+    text-align: center;
+}
+
+#page-feria .list-block.media-list .item-title
+{
+    color: #EE9C4A !important;
+    font-weight: bold;
+    line-height: 26px;
+    white-space: normal;
+}
+

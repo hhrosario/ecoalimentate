@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Required meta tags-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta http-equiv="Content-Security-Policy"/>
+		
+		
+		<!-- Your app title -->
+		<title>EcoAlimentate</title>
+		
+		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+		<link rel="stylesheet" type="text/css" href="css/framework7/framework7.ios.min.css">
+		<link rel="stylesheet" type="text/css" href="css/framework7/framework7.ios.colors.min.css">
+		<link rel="stylesheet" type="text/css" href="css/page-local.css">
+		<link rel="stylesheet" type="text/css" href="css/page-feria.css">
+		<link rel="stylesheet" type="text/css" href="css/page-mercado.css">
+		<link rel="stylesheet" type="text/css" href="css/page-productores.css">
+		<link rel="stylesheet" type="text/css" href="css/page-item-details.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/google.maps.custom.css">
+		<link rel="stylesheet" type="text/css" href="css/infobox/infobox.css">
+		<link rel="stylesheet" type="text/css" href="css/page-map.css">
+		<link rel="stylesheet" type="text/css" href="css/page-about.css">
+		<link rel="stylesheet" type="text/css" href="css/lib/animate.min.css">
+		<link rel="stylesheet" type="text/css" href="css/blink.css">
+		
+	</head>
+	<body>
+	    <!-- Status bar overlay for full screen mode (PhoneGap) -->
+	    <div class="statusbar-overlay"></div>
+	    <!-- Panels overlay-->
+	    <div class="panel-overlay"></div>
+	    <!-- Left panel with reveal effect-->
+	    <div class="panel panel-left panel-reveal">
+	    	
+	      <div class="content-block-title">Menú</div>
+	      <div class="list-block">
+	      	<div class="list-group">
+			  <ul>
+			  	<li>
+			      <a href="#page-local" class="item-link item-content close-panel">
+			        <div class="item-media"><i class="icon icon-mnu-local"></i></div>
+			        <div class="item-inner">
+			        	<div class="item-title">Local</div>
+			        </div>
+			      </a>
+			    </li>
+			    <li>
+			      <a href="#page-feria" class="item-link item-content close-panel">
+			        <div class="item-media"><i class="icon icon-mnu-feria"></i></div>
+			        <div class="item-inner">
+			          <div class="item-title">Feria</div>
+			        </div>
+			      </a>
+			    </li>
+			    <li>
+			      <a href="#page-mercado" class="item-link item-content close-panel">
+			        <div class="item-media"><i class="icon icon-mnu-mercado"></i></div>
+			        <div class="item-inner">
+			          <div class="item-title">Mercado</div>
+			        </div>
+			      </a>
+			    </li>
+			    <li>
+			      <a href="#page-productores" class="item-link item-content close-panel">
+			        <div class="item-media"><i class="icon icon-mnu-productores"></i></div>
+			        <div class="item-inner">
+			          <div class="item-title">Productor</div>
+			        </div>
+			      </a>
+			    </li>
+			    <li>
+			      <a href="#" onClick="displayMapPage()" class="item-link item-content close-panel">
+			        <div class="item-media"><i class="icon icon-mnu-map"></i></div>
+			        <div class="item-inner">
+			          <div class="item-title">Mapa</div>
+			        </div>
+			      </a>
+			    </li>
+			    <li>
+			      <a href="#page-about" class="item-link item-content close-panel">
+			        <div class="item-media"><i class="icon icon-mnu-about"></i></div>
+			        <div class="item-inner">
+			          <div class="item-title">Acerca de ...</div>
+			        </div>
+			      </a>
+			    </li>
+			  </ul>
+			  </div>
+			</div>
+	    </div>
+	    <!-- Views -->
+	    <div class="views">
+	      <!-- Your main view, should have "view-main" class -->
+	      	<div class="view view-main">
+		        <!-- Top Navbar-->
+		        <div class="navbar theme-white">
+		        	<!-- Navbar for page-local page -->
+					<div data-page="page-local" class="navbar-inner">
+						<div class="left">
+							<!-- Right link contains only icon - additional "icon-only" class-->
+							<a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+						</div>
+						<!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+						<div class="center sliding">
+							<i class="icon icon-header-local"></i>
+							<span class="spnHeader">Local</span>
+						</div>
+					</div>
+		          
+		          	<!-- Navbar for Bone Marrow page -->
+					<div data-page="page-feria" class="navbar-inner cached">
+						<div class="left">
+							<a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+						</div>
+						<div class="center sliding">
+							<i class="icon icon-header-feria"></i>
+							<span class="spnHeader">Feria</span>
+						</div>
+					</div>
+
+					<!-- Navbar for page-mercado page -->
+					<div data-page="page-mercado" class="navbar-inner cached">
+						<div class="left">
+							<a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+						</div>
+						<div class="center sliding">
+							<i class="icon icon-header-mercado"></i>
+							<span class="spnHeader">Mercado</span>
+						</div>
+					</div>
+					
+					<!-- Navbar for page-productores page -->
+					<div data-page="page-productores" class="navbar-inner cached">
+						<div class="left">
+							<a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+						</div>
+						<div class="center sliding">
+							<i class="icon icon-header-productores"></i>
+							<span class="spnHeader">Productor</span>
+						</div>
+					</div>
+
+					<!-- Navbar for page-map page -->
+					<div data-page="page-map" class="navbar-inner cached">
+						<div class="left">
+							<a href="#"  class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+						</div>
+						<div class="center sliding">
+							<i class="icon icon-header-map"></i>
+							<span class="spnHeader">Mapa</span>
+						</div>
+					</div>
+					<div data-page="page-map-detail" class="navbar-inner cached">
+						<div class="left">
+							<a href="#"  class="back link"> <i class="icon icon-back"></i><span>Volver</span></a>
+						</div>
+						<div class="center sliding">
+							<i class="icon icon-header-map"></i>
+							<span class="spnHeader">Mapa</span>
+						</div>
+					</div>
+					
+					<div data-page="page-about" class="navbar-inner cached">
+						<div class="left">
+							<!-- Right link contains only icon - additional "icon-only" class-->
+							<a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+						</div>
+						<div class="center sliding">
+							<i class="icon icon-header-about"></i>
+							<span class="spnHeader">Acerca de ...</span>
+						</div>
+					</div>
+					
+					<!-- Navbar for Center Details page -->
+					<div data-page="page-item-details" class="navbar-inner cached">
+							<div class="left">
+								<a href="#" class="back link"> <i class="icon icon-back"></i><span>Volver</span></a>
+							</div>
+						<div id="titleCenterDetails" class="center sliding"></div>
+					</div>
+
+		        </div>
+		        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+		        <div class="pages navbar-through toolbar-through">
+		        
+			        <!-- Page, "data-page" contains page name -->
+			        <div data-page="page-local" id="page-local" class="page"></div>
+
+			        <div data-page="page-feria" id="page-feria" class="page cached"></div>
+				  	
+				  	<div data-page="page-mercado" id="page-mercado" class="page cached"></div>
+				  	
+				  	<div data-page="page-productores" id="page-productores" class="page cached"></div>
+
+				  	<div data-page="page-map" id="page-map" class="page cached"></div>
+				  	
+				  	<div data-page="page-map-detail" id="page-map-detail" class="page cached"></div>
+				  	
+				  	<div data-page="page-about" id="page-about" class="page cached"></div>
+				  	
+				  	<div data-page="page-item-details" id="page-item-details" class="page cached"></div>
+				  	
+		        </div>
+	        
+	      	</div>
+	    </div>
+
+	    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>    
+	    <script type="text/javascript" src="js/framework7/framework7.min.js"></script>
+	    <script type="text/javascript" src="js/common.js"></script>
+	    <script type="text/javascript" src="js/builder.js"></script>
+	    <script type="text/javascript" src="js/pages/page-local.js"></script>
+	    <script type="text/javascript" src="js/pages/page-feria.js"></script>
+	    <script type="text/javascript" src="js/pages/page-mercado.js"></script>
+	    <script type="text/javascript" src="js/pages/page-productores.js"></script>
+	    <script type="text/javascript" src="js/pages/page-about.js"></script>
+	    <script type="text/javascript" src="js/map/geolocationGPS.js"></script>
+	    <script type="text/javascript" src="js/map/google.maps.js"></script>
+	    <script type="text/javascript" src="js/pages/page-map.js"></script>
+	    <script type="text/javascript" src="js/pages/page-map-detail.js"></script>
+	    <script type="text/javascript" src="js/pages/page-item-details.js"></script>
+	    <script type="text/javascript" src="js/map/infobox.custom.js"></script>
+	    
+	</body>
+</html>

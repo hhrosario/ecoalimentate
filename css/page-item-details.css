@@ -1,0 +1,47 @@
+#nameCenter
+{
+   	color: gray;
+    font-size: 18px;
+    font-weight: bold !important;
+    margin-left: 10px;
+    margin-top: 14px !important;
+}
+
+#div-item-detail-image-container
+{
+	text-align: center;
+	background-color: #F8931F;
+}
+
+#img-item-detail
+{
+	width: 100%;
+    height: auto;
+    max-width: 800px;
+    max-height: 513px;
+}
+
+#page-item-details ul li a 
+{
+	color: #CE8837;	
+}
+
+.imgItemDetail
+{
+	width: 35px;
+}
+
+.labelItemDetail
+{
+	color: black;
+}
+
+#div-item-detail-list
+{
+	margin-top: 11px;
+}
+
+.gray
+{
+	color: gray;
+}

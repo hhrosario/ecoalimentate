@@ -1,0 +1,198 @@
+#map_canvas 
+{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 44px;
+}
+
+.mapPropertyLabels 
+ {
+    background-color: #EAF1F2;
+    border: 2px solid #41AAD8;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 5px black;
+    color: #2A586D;
+    font-family: "Lucida Grande","Arial",sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px;
+    text-align: center;
+    white-space: nowrap;
+    width: 113px;
+ }
+ 
+#tableInfoWindow {
+  overflow-x: hidden;
+  height: 107px;
+}
+
+#tableInfoWindow tr.titleInfowindow td 
+{
+  font: bold 16px Arial,sans-serif !important;
+  width: 170px;
+  font-weight:bold;
+  text-shadow: 0 0px 0;
+}
+
+.tdIconInfowindow
+{
+	width:20px !important;
+}
+
+.greenAll
+{
+	color: #246939;
+}
+
+.greenA24
+{
+	color: #5F812F;
+}
+
+.yellow
+{
+	color: #E3CC00;
+}
+
+#tableInfoWindow tr td .imageInfoWindow{
+  	display: block;
+    float: left;
+    margin-right: 12px;
+    width: 20px;
+}
+
+#tableInfoWindow tr td p{
+  	margin:0px;
+}
+
+#tableInfoWindow{
+    table-layout: fixed;
+}
+
+#tableInfoWindow tr td{
+    word-wrap:break-word
+}
+
+#tableInfoWindow tr td img.imgServiceList{
+  	display: block;
+    float: left;
+    padding-right:10px;
+}
+
+#tableInfoWindow tr td {
+
+}
+
+#tableInfoWindow .paragraphService td{
+	color: #000000 !important;
+	text-shadow: 0px 0px 0px;
+	font-size: 14px;
+}
+
+#tableInfoWindow tr.addressPrivate td {
+  margin: 0 0 -14px;
+  font: bold 18px Arial,sans-serif !important;
+  font-weight:bold;
+  color: #2B4C6E;
+  text-shadow: 0 0px 0;
+}
+
+#tableInfoWindow .addressPrivate .imageInfoWindow{
+  	display: block;
+    float: left;
+    margin-right: 10px;
+    width: 25px;
+}
+
+#divInfoWindow .paragraphService .imgServiceList{
+	width:20px !important;
+	float: left !important;
+	margin-right: 6px;
+}
+
+#tableInfoWindow .paragraphServicePrivate{
+	float: rigth !important;
+	color: #000000 !important;
+	text-shadow: 0px 0px 0px;
+	font-size: 14px;
+	margin-left: 22px;
+}
+
+#tableInfoWindow .btnCall {
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 14px;
+    padding: 10px 30px;
+    text-decoration: none;
+    padding: 7px 35px;
+    border: 0;
+}
+
+.btnCall:active {
+    background-color: gray !important;
+}
+
+.callGreenAll
+{
+    background: #246939;
+}
+
+.callGreen24
+{
+    background: #8dc153;
+}
+
+.callYellow
+{
+    background: #E0CB12;
+}
+
+
+.btnMapRate {
+    -moz-user-select: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: -90px;
+    margin-top: 55px;
+    padding: 10px 6px 7px 7px;
+}
+
+input[type="button"] {
+    width: 80px !important;
+    background-color: #8DC153;
+	color: #FFFFFF;
+}
+
+#divLabelMarker
+{
+   	font-size: 14px;
+    color: #3CA4D4;
+    font-weight: bold;
+}
+
+.imgInfowindow
+{
+    border: 0 none;
+    margin-right: 6px;
+    width: 25px;
+    margin-bottom: -5px;
+}
+
+.address
+{
+    margin-left: -2px;
+}
+
+.phone
+{
+	margin-left: 1px;
+}
+
+.filterMarker
+{
+	margin-right: 10px;
+}

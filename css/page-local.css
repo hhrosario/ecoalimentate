@@ -1,0 +1,31 @@
+#page-local .page-content
+{
+    padding-top: 24px;
+}
+
+.div-title-item-list
+{
+	color: #F8931F;
+}
+
+.divCustomCard
+{
+	margin: 20px -16px;
+}
+
+.divCustomHeaderCard
+{
+    border-radius: 2px 2px 0 0;
+    color: #ff2d55;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#page-local .list-block.media-list .item-title
+{
+    color: #F8931F;
+    font-weight: bold;
+    line-height: 26px;
+    white-space: normal;
+}
+

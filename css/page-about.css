@@ -1,0 +1,104 @@
+#divAboutHeader{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 14px;
+}
+
+#div-about-text1 
+{
+    text-align: center;
+    color: #808080;
+    padding: 10px;
+}
+
+#div-about-text2 
+{
+    color: gray;
+    font-size: 20px;
+    margin-left: 14px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.divImgAboutContainer {
+    text-align: center;
+    width: 50%;
+    float:left;
+}
+
+#img-logo-hacks-hackers
+{
+	width: 130px;
+	border-radius: 10px;
+}
+
+#imgLogoCompartiVida
+{
+    vertical-align: 2px;
+    width: 60px;
+}
+
+#imgLogoRMA
+{
+	width: 35px;
+}
+
+#div-about-rosario
+{
+    font-size: 31px;
+    font-weight: bolder;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    vertical-align: 13px;
+    color: black;
+}
+
+#spnAboutRMATitle
+{
+	font-size: 17px;
+    font-weight: bolder;
+    margin-left: 5px;
+    vertical-align: 13px;
+}
+
+#divRSTitleContainer
+{
+    margin-bottom: -10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#divCompartiVidaTitleContainer
+{
+    margin-bottom: -10px;
+	margin-top: -12px;
+    text-align: center;
+}
+
+#divRMATitleContainer
+{
+    margin-bottom: -10px;
+    margin-top: -12px;
+    text-align: center;
+}
+
+#page-about ul li a
+{
+	color: #808080;
+}
+
+.div-names-container
+{
+	margin-top: 5px !important;
+	margin-bottom: -30px;
+}
+
+#div-logo-app-container
+{
+	margin-top: 5px;
+}
+
+#div-logo-app-container img
+{
+	width: 100px;
+}

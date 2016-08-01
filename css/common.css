@@ -1,0 +1,300 @@
+@font-face 
+{
+    font-family: "OpenSansRMA";
+    src: url("../fonts/OpenSans-Regular.ttf");   
+}
+
+.panel-left{
+	color: #FFFFFF !important;
+}
+
+*
+{
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input
+{
+	-webkit-user-select: auto !important;
+	-khtml-user-select: auto !important;
+	-moz-user-select: auto !important;
+	-ms-user-select: auto !important;
+	user-select: auto !important;
+}
+
+.blinkControl
+{
+	-webkit-animation: blink 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 2s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 2s;
+    -o-animation-iteration-count: infinite;
+}
+
+.calculatedDistancePink
+{
+	color: #2CAEFF !important;
+	font-weight: bold !important;
+}
+
+.calculatedDistanceBlue
+{
+	color: #F8931F !important;
+	font-weight: bold !important;
+}
+
+.modal-title {
+    color: #F8931F;
+}
+
+.panel
+{
+    background-color: #333333;
+}
+
+.panel .list-block .item-content {
+    background: #333333 none repeat scroll 0% 0%;
+}
+
+.panel .list-block .item-link .item-inner {
+    background: transparent none repeat scroll 0% 0%;
+    border-bottom: 0px none;
+}
+
+i.icon.icon-mnu-local {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/menu/icon-mnu-local.png");
+    border-radius: 6px;
+}
+
+i.icon.icon-mnu-feria {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/menu/icon-mnu-feria.png");
+    border-radius: 6px;
+}
+
+i.icon.icon-mnu-mercado {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/menu/icon-mnu-mercado.png");
+    border-radius: 6px;
+}
+
+i.icon.icon-mnu-productores {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/menu/icon-mnu-productores.png");
+    border-radius: 6px;
+}
+
+i.icon.icon-mnu-map {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/menu/icon-mnu-map.png");
+    border-radius: 6px;
+}
+
+i.icon.icon-mnu-about {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/menu/icon-mnu-about.png");
+    border-radius: 6px;
+}
+
+i.icon.icon-header-local {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/header/icon-header-local.png");
+    border-radius: 6px;
+}
+
+i.icon.icon-header-feria {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/header/icon-header-feria.png");
+    border-radius: 6px;
+}
+
+i.icon.icon-header-mercado {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/header/icon-header-mercado.png");
+    border-radius: 6px;
+}
+
+i.icon.icon-header-productores {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/header/icon-header-productores.png");
+    border-radius: 6px;
+}
+
+i.icon.icon-header-map {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/header/icon-header-map.png");
+    border-radius: 6px;
+}
+
+
+i.icon.icon-header-about {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/header/icon-header-about.png");
+    border-radius: 18px;
+}
+
+.spnHeader{
+	margin-left: 10px;
+}
+
+i.icon.icon-form-location {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/icon-form-location.png");
+}
+
+i.icon.icon-form-fb {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/icon-form-fb.png");
+}
+
+i.icon.icon-form-twitter {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/icon-form-twitter.png");
+}
+
+.list-block .item-text{
+	height: auto !important;
+}
+
+.imgItemList
+{
+	width: 50px;
+}
+
+.content-block{
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+.content-block-information{
+  margin: 30px;
+}
+
+li .item-content{
+	width:100%;
+}
+
+.addressCenterSubtitle
+{
+	color: black;
+	margin-bottom: 5px;
+}
+
+.navbar {
+    border-bottom: medium none;
+    background: #F8931F;
+    color: #FFF;
+}
+
+.navbar a {
+    color: #FFF;
+}
+
+.navbar .center{
+	white-space: normal;
+	line-height: 22px;
+}
+
+.list-block .item-title.label{
+	width:100%;
+	white-space: normal;
+	line-height: 22px;
+}
+
+.content-block-title{
+	white-space: normal;
+	line-height: 20px;
+}
+
+
+.content-block-images{
+	text-align: center;
+}
+.content-block-images img{
+	height: 110px;
+	width: 110px;
+}
+
+
+/* ######################################################### */
+/* ######################################################### */
+
+/* WORKARROUND ANDROID 4.1 + */
+.androidFix_4_1 
+{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0, 0, 0);
+}
+
+/* ######################################################### */
+/* ######################################################### */
+
+#list-local,
+#list-feria,
+#list-mercado,
+#list-productores
+{
+	margin-top: 19px;
+	margin-bottom: -40px;
+}
+
+
+#list-mercado,
+#list-productores
+{
+	margin-top: -1px;
+	margin-bottom: -40px;
+}
+
+.imgIconNotFound {
+    margin-right: 10px;
+    vertical-align: -5px;
+    width: 30px;
+}
+
+.divEmptySearchResult {
+    text-align: center;
+}
+
+#divConnectionErrorHeader {
+    font-size: 20px;
+    text-align: center;
+}
+
+#divConnectionErrorText {
+    color: grey;
+    padding: 10px 20px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#imgConnectionUpload {
+    height: auto;
+    max-width: 120px;
+}
+
+#div-connection-upload-container
+{
+	text-align: center;
+}

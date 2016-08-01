@@ -1,0 +1,35 @@
+.div-img-header-card{
+	text-align: center;
+}
+
+.img-header-card{
+    width: 100% !important;
+    height: auto !important;
+}
+
+.card-header {
+    border-radius: 2px 2px 0px 0px;
+    font-size: 17px;
+}
+
+.card-footer[valign="bottom"], .card-header[valign="bottom"] {
+    align-items: flex-end;
+}
+
+.divBorderImageCampaign
+{
+	border: 20px solid #F8931F;
+}
+
+#imgEmptyResultIcon
+{
+	margin-right: 10px;
+    vertical-align: -14px;
+}
+
+.emptyResult
+{
+	margin-top:30px;
+	margin-right:5px;
+	margin-left: 5px;
+}
